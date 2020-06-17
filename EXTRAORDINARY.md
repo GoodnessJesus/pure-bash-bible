@@ -65,3 +65,9 @@ sort -k 1.11
 # set new seperater _, and specify the second field as the sort key 
 sort -t_ -k 2
 ```
+
+## To see every process running as root (real & effective ID) in user format
+
+```sh
+ps -U root -u root u
+```
