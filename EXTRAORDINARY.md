@@ -71,3 +71,8 @@ sort -t_ -k 2
 ```sh
 ps -U root -u root u
 ```
+## Check the information of disk usage of files and directories in "Human Readable Format"
+
+```sh
+du -h -d 1 /dir
+```
